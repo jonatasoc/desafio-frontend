@@ -16,6 +16,51 @@ const CardCapitals: React.FC = () => {
           <span>27°</span>
           <strong>Rio de Janeiro</strong>
         </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>São Paulo</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Belo Horizonte</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Brasília</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Belém</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Salvador</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Curitiba</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Fortaleza</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>Manaus</strong>
+        </div>
+        <div>
+          <span>18°</span>
+          <span>27°</span>
+          <strong>João Pessoa</strong>
+        </div>
       </CapitalsList>
     </Container>
   );

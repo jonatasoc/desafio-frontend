@@ -16,6 +16,10 @@ export const Container = styled.div`
 
   @media (max-width: 576px) {
     width: 100%;
+
+    hr {
+      width: 100%;
+    }
   }
 `;
 
