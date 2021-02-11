@@ -6,12 +6,6 @@ export const Container = styled.div`
   h2 {
     margin-bottom: 10px;
   }
-
-  div:first-child {
-    span + span {
-      margin-left: 5px;
-    }
-  }
 `;
 
 export const CapitalsList = styled.div`
@@ -20,8 +14,14 @@ export const CapitalsList = styled.div`
   flex-wrap: wrap;
   height: 200px;
 
+  span {
+    margin-right: 15px;
+    text-align: left;
+  }
+
   div {
     color: #000;
+    margin-right: 55px;
   }
   div:not(:first-child) {
     margin-top: 20px;
@@ -34,5 +34,28 @@ export const CapitalsList = styled.div`
 
   @media (max-width: 576px) {
     flex-wrap: nowrap;
+  }
+`;
+
+export const InfoHeader = styled.div`
+  display: flex;
+  position: relative;
+
+  div {
+    display: flex;
+  }
+
+  div:nth-child(2) {
+    position: absolute;
+    left: 242px;
+
+    @media (max-width: 576px) {
+      display: none;
+    }
+  }
+
+  color: #8b6020;
+  span:not(:first-child) {
+    margin-left: 10px;
   }
 `;

@@ -1,15 +1,21 @@
 import React from 'react';
 
-import { Container, CapitalsList } from './styles';
+import { Container, InfoHeader, CapitalsList } from './styles';
 
 const CardCapitals: React.FC = () => {
   return (
     <Container>
       <h2>Capitais</h2>
-      <div>
-        <span>Min</span>
-        <span>Max</span>
-      </div>
+      <InfoHeader>
+        <div>
+          <span>Min</span>
+          <span>Max</span>
+        </div>
+        <div>
+          <span>Min</span>
+          <span>Max</span>
+        </div>
+      </InfoHeader>
       <CapitalsList>
         <div>
           <span>18°</span>
